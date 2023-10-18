@@ -15,21 +15,10 @@ DesdKsa Market es una aplicación web CMS construida en PHP que busca impulsar e
 
 ## Hola Mundo! 👋
 
-```javascript
-function saludar() {
-  let mensaje = "DesdKsa Market dice 'Hola mundo';";
-  let i = 0;
-  let velocidad = 100; // Velocidad de escritura (en milisegundos)
+```php
 
-  function escribirMensaje() {
-    if (i < mensaje.length) {
-      document.getElementById("saludo").innerHTML += mensaje.charAt(i);
-      i++;
-      setTimeout(escribirMensaje, velocidad);
-    }
-  }
-
-  escribirMensaje();
+<?php
+$dk = true;
+if ($dk === true) {
+    echo "Yo también te amo ❤️";
 }
-
-saludar();
